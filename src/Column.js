@@ -2,8 +2,8 @@ import React from 'react';
 // import Task from './Category';
 import { Droppable } from 'react-beautiful-dnd';
 import { useEffect, useState } from 'react';
-import CategoryBox from './CategoryBox';
-import EmptyRefinements from './EmptyRefinements';
+import CategoryBox from './CategoryBox.js';
+import EmptyRefinements from './EmptyRefinements.js';
 
 export default function Column({
     key,

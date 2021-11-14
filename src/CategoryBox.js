@@ -1,4 +1,4 @@
-import RefinementBox from './RefinementBox';
+import RefinementBox from './RefinementBox.js';
 import { useState, useEffect } from 'react';
 import { Draggable } from 'react-beautiful-dnd';
 
