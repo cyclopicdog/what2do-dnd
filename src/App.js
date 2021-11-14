@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
 import './style.css';
-import initialData from './initialData';
-import Column from './Column';
+import initialData from './initialData.js';
+import Column from './Column.js';
 
 function App() {
     const [state, setState] = useState(initialData);

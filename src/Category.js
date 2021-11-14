@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Draggable } from 'react-beautiful-dnd';
 import Refinement from './Refinement';
-import CategoryBox from './CategoryBox';
+import CategoryBox from './CategoryBox.js';
 
 export default function Category({ key, category, index }) {
     const [beingDragged, setBeingDragged] = useState(false);
